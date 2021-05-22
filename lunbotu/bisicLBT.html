@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        width: 100%;
+        height: auto;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .frame{
+        width: 500px;
+        height: 300px;
+        margin: 10px;
+        display: flex;
+        overflow: hidden;
+    }
+    .piclists{
+        width: 500px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        animation: lunbotu 15s ease-in-out 2s infinite;
+        
+    }
+    .pic{
+        width: 500px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+    @keyframes lunbotu{
+        0% {transform: translate(0);}
+        20% {transform: translate(-100%);}
+        40% {transform: translate(-200%);}
+        60% {transform: translate(-300%);}
+        80% {transform: translate(-400%);}
+        100% {transform: translate(-500%);}
+    }
+
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="piclists">
+            <img src="https://tse4-mm.cn.bing.net/th/id/OIP.ZTmNathhKflijArYDaQEDAHaEo?w=266&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="pic1" class="pic">
+        </div>
+        <div class="piclists">
+            <img src="https://tse4-mm.cn.bing.net/th/id/OIP.uPx-FbZ4nf2U05kCoJ7_1QHaE8?w=248&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="pic2" class="pic">
+        </div>
+        <div class="piclists">
+            <img src="https://tse3-mm.cn.bing.net/th/id/OIP.w3iUuN5ktfwX9OE7xt8JvAHaEK?w=260&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="pic3" class="pic">
+        </div>
+        <div class="piclists">
+            <img src="https://tse3-mm.cn.bing.net/th/id/OIP.TdSiC9pqAVA8QBfN2SGihwHaE8?w=265&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="pic4" class="pic">
+        </div>
+        <div class="piclists">
+            <img src="https://tse2-mm.cn.bing.net/th/id/OIP.kOIs3eClFUBEyc1rPJ6ykwHaE8?w=283&h=189&c=7&o=5&dpr=1.25&pid=1.7" alt="pic5" class="pic">
+        </div>
+        <div class="piclists">
+            <img src="https://tse3-mm.cn.bing.net/th/id/OIP.tiJSi9I_FkYGgGI0vk2mdwHaE7?w=295&h=196&c=7&o=5&dpr=1.25&pid=1.7" alt="pic6" class="pic">
+        </div>
+    </div>
+</body>
+</html>
